@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.from-select,
+.to-select {
+  width: 315px;
+  background-color: #e9c46a;
+  padding: 13px;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #060619;
+}
+
+.converter {
+  display: flex;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #060619;
+}
+
+.converter-input {
+  font-size: 1.25rem;
+  padding-left: 10px;
+  border: 1px solid gray;
+}
+
+.converter-input.disabled-input {
+  color: #060619;
+  background-color: lightgray;
+}
+
+.converter span {
+  background-color: lightgray;
+  padding: 11px 14px;
+  font-size: 17px;
+  border: 1px solid gray;
+  line-height: 1.5;
+}
+
+.converter input:focus {
+  outline: none;
+  box-shadow: 0 0 20px #f3e0b0;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+}
+
+.result-container p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.result-container .result-arrow {
+  font-size: 35px;
+  color: #fcfaf8;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (max-width: 845px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .from-select {
+    margin-bottom: 20px;
+  }
+}

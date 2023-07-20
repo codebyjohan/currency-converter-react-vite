@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #1d455e, #2a9d8f, #fcfaf8);
+  color: #060619;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+hr {
+  width: 65%;
+  margin-bottom: 70px;
+  border: 2px solid #e9c46a;
+}
